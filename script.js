@@ -6,8 +6,8 @@ function checkPalindrome() {
     const isPalindrome = cleanStr === cleanStr.split('').reverse().join('');
     
     if (isPalindrome) {
-        result.innerText = "The string is a palindrome.";
+        result.innerText = true;
     } else {
-        result.innerText = "The string is not a palindrome.";
+        result.innerText = false;
     }
 }
